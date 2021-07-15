@@ -13,6 +13,6 @@ public class Controller {
 	
 	@RequestMapping("/add")
 	public String add() {
-		return "Se añadio una nueva funcion";
+		return "Sdnioandjowalndwakndwak";
 	}
 }

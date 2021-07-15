@@ -10,4 +10,9 @@ public class Controller {
 	public String hola() {
 		return "Hola Mundo desde Jenkins + Docker!";
 	}
+	
+	@RequestMapping("/add")
+	public String add() {
+		return "Se añadio una nueva funcion";
+	}
 }
